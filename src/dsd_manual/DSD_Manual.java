@@ -3,8 +3,10 @@ package dsd_manual;
 class Node { // КЛАСС – СТРУКТУРА ЭЛЕМЕНТА СПИСКА
     int value; // значение
     Node next; // поле – ссылка (указатель) на следующий узел
+    int index;
 
     public Node(int value, Node next) { // конструктор класса
+        this.index = index;
         this.value = value;
         this.next = next;
     }
